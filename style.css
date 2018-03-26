@@ -1,0 +1,65 @@
+#topnav{
+    background-color: #ff8900;
+    padding-left: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#mainContainer{
+    padding: 0;
+    overflow-x: hidden;
+}
+#mainRow {
+    padding-left: 0;
+
+    overflow-x: hidden;
+
+}
+
+#myTab{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fafafa;
+}
+#sidebar{
+    padding-left: 25px;
+
+
+}
+
+#sideNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #31309f;
+    height: 100vh;
+    position: fixed;
+}
+#sideNav li{
+    border-top: solid 1px #75c3d4;
+}
+
+#sideNav li a {
+    display: block;
+    color: #eaeaea;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+
+/* Change the link color on hover */
+#sideNav li a:hover {
+    background-color:white;
+    color: #232323;
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: gray;
+}
